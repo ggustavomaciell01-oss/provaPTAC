@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eef2f5;
+  margin: 20px;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 20px;
+}
+
+.form-section, .card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.cards-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card.editing {
+  border: 2px dashed #000;
+}
+
+.actions-row {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-primary {
+  background: #0a192f;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.card .btn-primary {
+  width: auto;
+}
+
+.btn-secondary {
+  background: #fff;
+  padding: 8px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
